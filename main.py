@@ -19,3 +19,4 @@ def root(id: int):
 def save_form_data(Name: str = Form(...),Year: str = Form(...),Month: str = Form(...),Day:str = Form(...)):
         userBirthDays.append({"name":Name,"year":Year,"month":Month,"day":Day})
         print(userBirthDays)
+        
